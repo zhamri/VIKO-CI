@@ -7,6 +7,6 @@ public class CalculatorTest {
     @Test
     public void add_shouldReturnSum() {
         Calculator c = new Calculator();
-        assertEquals(5, c.add(3, 3));
+        assertEquals(5, c.add(2, 3));
     }
 }
